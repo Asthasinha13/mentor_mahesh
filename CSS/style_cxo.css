@@ -1,0 +1,16 @@
+body{
+    padding: 10px;
+    background-color: rgb(231, 223, 111);
+}
+.first_box{
+    background-color: rgba(0, 0, 255, 0.158);
+    width: 900px;
+}
+.image1{
+    background-color: rgba(137, 43, 226, 0.233);
+    width: 400px;
+}
+.image1_text{
+    background-color: rgba(165, 42, 42, 0.158);
+    width: 400px;
+}

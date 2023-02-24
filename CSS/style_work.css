@@ -1,0 +1,43 @@
+body{
+    margin: 4px;
+}
+.body{
+    background-color: rgb(91, 210, 231);
+    margin: 5px;
+    padding: 10px;
+}
+.image1{
+    background-color: white;
+    max-width: 590px;
+    float: inline-start;
+}
+.image1 .img1{
+    
+    max-width: 400px;
+    margin-right: -50px;
+    margin-bottom: 140px;
+}
+.image1 .img2{
+    margin-top: 40px;
+    max-width: 200px;
+    margin-left: 36px;
+}
+.image1_text{
+    width: 400px;
+    font-size: xx-large;
+    float: right;
+}
+.first_box{
+    display: inline;
+}
+
+/* second box */
+.projects{
+    background-color: white;
+    max-width: 590px;
+    float: right;
+}
+.second_box_text{
+    font-size: xx-large;
+    width: 400px;
+}
