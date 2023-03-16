@@ -6,10 +6,10 @@
     float: right;
 } */
 .toonland{
-    margin-top: -300px;
+    /* margin-top: -300px; */
     float: right;
     max-width: 600px;
-    padding: 100px;
+    /* padding: 100px; */
 }
 .mentoons{
     float: left;
@@ -21,6 +21,17 @@
     width: 500px;
     height: 200px;
 }
-img{
+.mentoons img{
     width: 400px;
+}
+.toonland img{
+    width: 400px;
+}
+.mentoons p{
+    /* max-height: 800px; */
+    font-size: xx-large;
+}
+.toonland p{
+    /* max-height: 800px; */
+    font-size: xx-large;
 }

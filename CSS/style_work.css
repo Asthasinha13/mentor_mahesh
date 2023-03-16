@@ -1,9 +1,90 @@
+/* [class*="col-"]{
+  width: 100%;
+} */
+@media only screen and (min-width:200px){
+  .music{ width: 60%;}
+  p{font-size: 20%;
+  }
+  .banner img{
+    width: 50%;
+  }
+  .banner p{
+    font-size: 30%;
+  }
+  .banner{
+    margin: auto;
+    float: center;
+  }
+#header{
+  margin: auto;
+}
+}
+.banner p{
+  font-size: 50px;
+}
+@media only screen and (min-width:600px){
+/* for tablets */
+  .body .guitar{
+    width: 500px;
+  }
+  /* .body p{
+    font-size: 30px;
+  } */
+  .body .img1 img{
+    width: 80%;
+  }
+  .body .img1 p{
+    max-width: 40%;
+  }
+  .body img{
+    width: 70%;
+  }
+  .body .img2 img{
+    width: 40%;
+  }
+  /* .body .img2 p{
+    font-size: 30px;
+    max-width: 200px;
+  } */
+  .banner {
+    width: 100%;
+  }
+  .banner img{
+    width: 30%;
+  }
+}
+/* .banner img{
+  width:600px;
+} */
+@media only screen and (min-width:768px)
+/* for desktop */
+{
+  .music{width: 60%;}
+  /* p{
+    color: rgb(61, 99, 99);
+    max-width: 300px;
+    font-size: 30px;
+    margin: 10px;
+  }
+  .banner_img{
+    width: 80%;
+  }
+  .banner p{
+    font-size: large;
+  } */
+  .banner img{
+    width: 50%;
+  }
+}
+
+
 body{
   margin: 0;
 }
 #header{
-  min-height:calc(100vh);
-  background: linear-gradient(rgba(197, 151, 151, 0.603),rgba(120, 195, 201, 0.575)),url(../images/Desktop\ -\ 1\ -\ Copy\ \(2\).png);
+  min-height:calc(80vh);
+  background: linear-gradient(rgba(197, 151, 151, 0.603),rgba(120, 195, 201, 0.575));
+  /* background: linear-gradient(rgba(197, 151, 151, 0.603),rgba(120, 195, 201, 0.575)),url(../images/Untitled_Artwork\ 9.png); */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -26,14 +107,14 @@ body{
 
 }
 /************** text ***********************************************/
-.text{
+.text_banner{
   max-width: 500px;
-  position: absolute;
+  /* position: absolute; */
   font-size: 50px;
   text-align:right;
-  position: relative;
-  float: none;
-  display: block;
+  /* position: relative; */
+  /* float: none;
+  display: block; */
   margin-top: 50px;
   float: right;
   margin: 20px;
@@ -98,7 +179,7 @@ body{
 /* *****************images ***********************************/
 p{
   color: rgb(61, 99, 99);
-  max-width: 500px;
+
   font-size: 50px;
   margin: 10px;
 }
@@ -153,6 +234,7 @@ img{
   float: left;
   margin: 10px;
   margin-top: 50px;
+  max-width: 500px;
 }
 .img2 img{
   float: left;
@@ -169,6 +251,7 @@ img{
   float: right;
   margin: 20px;
   margin-top: 80px;
+  max-width: 500px;
 }
 .img3 img{
   float: right;
@@ -183,6 +266,7 @@ img{
   /* margin-bottom: 50px; */
   margin: 10px;
   bottom: 0;
+  max-width: 500px;
 }
 .img4 img{
   float: left;
@@ -196,6 +280,7 @@ img{
   margin-top: 50px;
   float: right;
   margin: 10px;
+  max-width: 500px;
 }
 .img5 img{
   float: right;
@@ -209,6 +294,7 @@ img{
   margin-top: 50px;
   float: left;
   margin: 10px;
+  max-width: 500px;
 }
 /*  */
 #check{
@@ -724,9 +810,10 @@ nav{
 
 /*************** music ****************************************************/
 .music-box{
-  background-color: blueviolet;
+  /* background-color: rgb(191, 126, 252);
   max-width: 90%;
-  border-radius: 25px;
+  border-radius: 25px; */
+  margin: auto;
 }
 .music-box button{
   padding: 10px;
@@ -735,7 +822,14 @@ nav{
   margin: 20px;
 }
 .music{
-  max-width: 900px;
+  max-width: 500px;
+}
+.music-box p{
+  font-size: 40px;
+  width: 500px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
 }
 /*************** music end ****************************************************/
 
@@ -981,3 +1075,126 @@ nav{
     bottom: 21px;
   }
 } */
+
+/* personal branding */
+/* .personal_branding p{
+  font-size: x-large;
+}
+.cxo{
+    margin-top: -300px;
+    float: right;
+    max-width: 600px;
+    padding: 100px;
+}
+
+.porpelling_stories{
+    float: left;
+    max-width: 700px;
+    padding-left: 100px;
+    margin-bottom: -30px;
+}
+.num{
+    width: 500px;
+    height: 200px;
+}
+.cxo img{
+    width: 400px;
+}
+.porpelling_stories img{
+    width: 400px;
+} */
+
+/* personal branding end */
+/* mentoring */
+.mentoons{
+  /* margin-top: -300px; */
+  float: right;
+  max-width: 600px;
+  /* padding: 100px; */
+}
+.toonland{
+  float: left;
+  max-width: 700px;
+  padding-left: 100px;
+  margin-bottom: -30px;
+}
+.num{
+  width: 500px;
+  height: 200px;
+  float: left;
+  align-items: left;
+  align-self: left;
+}
+.mentoons img{
+  width: 400px;
+}
+.toonland img{
+  width: 400px;
+}
+.mentoons p{
+  /* max-height: 800px; */
+  font-size: xx-large;
+}
+.toonland p{
+  /* max-height: 800px; */
+  font-size: xx-large;
+}
+/* ------------------------------------------------------------------------------------- */
+.text_brand2 p{
+  width: 500px;
+  font-size: 30px;
+}
+
+/* personal branding */
+.porpelling_stories{
+  /* margin-top: -300px; */
+  float: right;
+  max-width: 600px;
+  /* padding: 100px; */
+}
+.cxo{
+  float: left;
+  max-width: 700px;
+  padding-left: 100px;
+  margin-bottom: 30px;
+}
+.num{
+  width: 500px;
+  height: 200px;
+}
+.cxo img{
+  width: 400px;
+}
+.porpelling_stories img{
+  width: 400px;
+  border-radius: 0px;
+}
+.cxo p{
+  /* max-height: 800px; */
+  font-size: xx-large;
+}
+.porpelling_stories p{
+  /* max-height: 800px; */
+  font-size: xx-large;
+}
+
+.brands1{
+  background-color: white;
+  height: 950px;
+  border-radius: 40px;
+  margin: 20px;
+  box-shadow: 0 3px 20px rgba(19, 18, 18, 0.849);
+}
+.brands2{
+  background-color: white;
+  border-radius: 40px;
+  margin: 20px;
+  box-shadow: 0 3px 20px rgba(19, 18, 18, 0.849);
+  height: 1050px;
+}
+.text__3{
+  width: 800px;
+}
+.text__3 p{
+  font-size: 30px;
+}
