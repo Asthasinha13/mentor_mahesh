@@ -15,21 +15,41 @@
     margin: auto;
     float: center;
   }
-#header{
-  margin: auto;
-}
+  #header{
+    margin: auto;
+  }
 }
 .banner p{
-  font-size: 50px;
+  /* font-size: 50px; */
 }
+/* @media (min-width:768px) {
+  font-size: 18px;
+}
+@media (min-width:1024px) {
+  font-size: 19px;
+}
+@media (min-width:1280px) {
+  font-size: 20px;
+} */
+
 @media only screen and (min-width:600px){
 /* for tablets */
   .body .guitar{
-    width: 500px;
+    max-width: 500px;
   }
-  /* .body p{
-    font-size: 30px;
-  } */
+  .banner{
+    height: 90%;
+  } 
+  .banner img{
+    width: 50%;
+    margin-top: 80px;
+  }
+  .text_banner{
+    width: 35%;
+  }
+  .text_banner p{
+    font-size: 10px;
+  }
   .body .img1 img{
     width: 80%;
   }
@@ -47,11 +67,9 @@
     max-width: 200px;
   } */
   .banner {
-    width: 100%;
+    /* width: 100%; */
   }
-  .banner img{
-    width: 30%;
-  }
+
 }
 /* .banner img{
   width:600px;
@@ -110,7 +128,8 @@ body{
 .text_banner{
   max-width: 500px;
   /* position: absolute; */
-  font-size: 50px;
+  /* font-size: 50px; */
+  /* font-size: calc(15px + 0.390625vw); */
   text-align:right;
   /* position: relative; */
   /* float: none;
@@ -120,6 +139,10 @@ body{
   margin: 20px;
   /* margin:auto; */
   color: rgb(61, 99, 99);
+}
+.text_banner p{
+  /* font-size: calc(50px + 0.390625vw); */
+  font-size: 5vw;
 }
 
 /* .banner h1{
@@ -179,8 +202,9 @@ body{
 /* *****************images ***********************************/
 p{
   color: rgb(61, 99, 99);
-
-  font-size: 50px;
+  /* font-size: calc(50px + 0.390625vw); */
+  /* font-size: 50px; */
+  font-size: 5vw;
   margin: 10px;
 }
 img{
